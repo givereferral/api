@@ -1,0 +1,21 @@
+{
+    "name": "givereferral-api",
+    "profile": "up",
+    "regions": [
+        "us-west-2"
+      ],
+      "lambda": {
+        "memory": 128
+      },
+      "stages": {
+        "production": {
+          "domain": "api.givereferral.com",
+          "lambda": {
+            "warm": true
+          }
+        },
+        "staging": {
+          "domain": "api-staging.givereferral.com"
+        }
+      }
+}
