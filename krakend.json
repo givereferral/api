@@ -16,7 +16,8 @@
         "allow_methods": [ "OPTIONS", "POST", "GET", "PUT", "PATCH", "DELETE", "HEAD" ],
         "allow_headers": [ "Origin", "Authorization", "Content-Type" ],
         "expose_headers": [ "Content-Length" ],
-        "max_age": "12h"
+        "max_age": "12h",
+        "allow_credentials": true
       }
     },
     "endpoints": [
@@ -28,6 +29,10 @@
         "extra_config": {},
         "querystring_params": [
           "tenant"
+        ],
+        "headers_to_pass": [
+          "Authorization",
+          "Content-Type"
         ],
         "backend": [
           {
