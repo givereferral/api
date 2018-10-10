@@ -14,13 +14,13 @@
             "warm": true
           },
           "proxy": {
-            "command": "krakend run --config ./krakend.json"
+            "command": "./server run --config ./krakend.json"
           }
         },
         "staging": {
           "domain": "api-staging.givereferral.com",
           "proxy": {
-            "command": "krakend run --config ./krakend.json"
+            "command": "./server run --config ./krakend.json"
           }
         }
       }
