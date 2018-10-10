@@ -7,3 +7,4 @@ makefile
 *.lock
 *.toml
 *.yml
+api
