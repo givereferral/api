@@ -26,13 +26,13 @@
         "method": "POST",
         "output_encoding": "json",
         "concurrent_calls": 1,
-        "extra_config": {},
         "querystring_params": [
           "tenant"
         ],
         "headers_to_pass": [
           "Authorization",
-          "Content-Type"
+          "Content-Type",
+          "Accept"
         ],
         "backend": [
           {
