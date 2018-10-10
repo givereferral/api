@@ -12,7 +12,7 @@
         "stdout": true
       },
       "github_com/devopsfaith/krakend-cors": {
-        "allow_origins": [ "https://referrers.giverferral.com", "https://providers.givereferral.com", "https://signup.givereferral.com" ],
+        "allow_origins": [ "https://referrers.givereferral.com", "https://providers.givereferral.com", "https://signup.givereferral.com" ],
         "allow_methods": [ "OPTIONS", "POST", "GET", "PUT", "PATCH", "DELETE", "HEAD" ],
         "allow_headers": [ "Origin", "Authorization", "Content-Type" ],
         "expose_headers": [ "Content-Length" ],
