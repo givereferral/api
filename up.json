@@ -7,6 +7,9 @@
       "lambda": {
         "memory": 128
       },
+      "proxy": {
+        "command": "krakend run --config ./krakend.json"
+      },
       "stages": {
         "production": {
           "domain": "api.givereferral.com",
